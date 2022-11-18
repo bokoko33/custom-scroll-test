@@ -1,4 +1,4 @@
-# Custom Scroll Tet
+# Custom Scroll Test
 
 自作スムーススクロールの実験
 
