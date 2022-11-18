@@ -1,16 +1,7 @@
-# Next.js Template
+# Custom Scroll Tet
 
-Next.js を使用した最小限のサイト制作用テンプレート
-TypeScript は使用していません
+自作スムーススクロールの実験
 
-# Usage
-
-このリポジトリをテンプレートとして Create Next App する
-
-```
-npx create-next-app -e https://github.com/Bokoko33/nextjs-template
-
-# or
-
-yarn create-next-app -e https://github.com/Bokoko33/nextjs-template
-```
+- pointer デバイス → ブラウザネイティブの挙動を生かしたままスムーススクロール
+  - 参考 [studio-freight/lenis](https://github.com/studio-freight/lenis)
+- touch デバイス → ブラウザネイティブの挙動を完全にジャックしてスムーススクロール
