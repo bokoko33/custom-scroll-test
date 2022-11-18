@@ -4,5 +4,26 @@
 
 .root {
   width: 80%;
+  max-width: 1000px;
+  padding: 100px 0 100px;
   margin: 0 auto;
+}
+
+.title {
+  font-size: 60px;
+  letter-spacing: 0;
+  font-weight: 700;
+}
+
+.list {
+  margin-top: 40px;
+}
+
+.item {
+  font-size: 16px;
+  line-height: 1.5;
+
+  & + & {
+    margin-top: 40px;
+  }
 }
